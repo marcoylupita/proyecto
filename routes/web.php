@@ -15,4 +15,23 @@ Route::get('inicio', function () {
     return view('inicio');
 });
 
+Route::get('acerca-de', function () {
+    return view('acerca-de');
+});
+
+Route::get('catalogo', function () {
+    return view('catalogo');
+});
+
+Route::get('contacto', function () {
+    return view('contacto');
+});
+
+Route::get('galeria', function () {
+    return view('galeria');
+});
+
+
 Route::resource('posts', 'PostController');
+
+
